@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    /* background-color: linen; */
+    background-color:rgb(209, 220, 231);
+    overflow: hidden;
+}
+.main{
+    display:flex;
+    flex-direction: row;
+    /* background-color: linen; */
+}
+
+
+.text{
+    height:100%;
+    width: 100%;
+    padding-left:20px;
+    position: relative;
+    top:30vh;
+}
+
+#btn{
+    background-image: linear-gradient( to right, #ed6ea0, #ec8c69, #f7186a, #fbb03b );
+    box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+.notes{
+    height: 150vh;
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+}
+
+.notes h1{
+    color: #f7186a;
+    margin: 10px; 
+}
+
+.notes span{
+    margin:20px;
+    width: 100%;
+    align-items: center;
+    top: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notes span h6{
+    font-size: 24px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    width: 100%;
+}
+
+
+
+.card-show{
+    padding: 10px;
+    height: 120px;
+    width: 160px;
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+}
+
+.card-show button{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    right:5px;
+    top:5px;
+    color: red;
+}
